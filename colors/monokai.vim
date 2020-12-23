@@ -401,6 +401,11 @@ call s:h("rubyConstant",                { "fg": s:aqua })
 call s:h("rubyBlockArgument",           { "fg": s:orange })
 call s:h("rubyBlockParameter",          { "fg": s:orange })
 
+" slim
+call s:h("slimIdChar",                  { "fg": s:pink })
+call s:h("slimClassChar",               { "fg": s:green })
+call s:h("slimClass",                   { "fg": s:green })
+
 " eruby
 call s:h("erubyDelimiter",              {})
 call s:h("erubyRailsMethod",            { "fg": s:aqua })
